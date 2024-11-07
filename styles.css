@@ -1,27 +1,14 @@
 
-body {
+*
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  font-style: Arial, sans-serif;
 }
 
-header h1
-{
-    background: none;
-    position: absolute;
-    z-index: 50;
-    left: 45%;
-    top: 10%;
-    color: #fff;
-}
-
-h1 {
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  letter-spacing: 2px;
-  font-size: 58px;
-
-}
 
 .nav
 {
@@ -30,7 +17,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 30%;
+  top: 10%;
   background: none;
   color: #fff;
   font-size: 32px;
@@ -38,17 +25,18 @@ h1 {
   z-index: 50;
 }
 
-.nav h2
+.nav a
 {
   border: solid #168300;
+  margin-bottom: 40px;
 }
 
-.nav h2:hover
+.nav a:hover
 {
   border: solid #fff;
   background-color: #168300;
   color: #fff;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .nav h2, a:hover
@@ -65,6 +53,7 @@ h1 {
   margin: 5px;
   text-align: center;
   transition: all 0.4s;
+  padding: 10px;
 }
 
 .header {
@@ -199,3 +188,5 @@ canvas {
 {
     position: absolute;
 }
+
+
