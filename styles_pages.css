@@ -9,6 +9,13 @@
   font-style: Arial, sans-serif;
 }
 
+h1:hover
+{
+  color: #fff;
+  background-color: #168300;
+  border-bottom: #299100;
+}
+
 h2
 {
   font-size: xx-large;
@@ -30,6 +37,9 @@ h2
 
 h1
 {
+  border: solid #000000;
+  color: #fff;
+  transition: all 0.2s;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -39,6 +49,7 @@ h1
   width: 100%;
   height: 40px;
   z-index: 99;
+  border-bottom: solid #fff;
 }
 
 .card-container
