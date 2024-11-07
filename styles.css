@@ -9,6 +9,12 @@
   font-style: Arial, sans-serif;
 }
 
+h2
+{
+  font-size: smaller;
+  font-family: Verdana, sans-serif;
+}
+
 h1
 {
   position: fixed;
