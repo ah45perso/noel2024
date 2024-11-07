@@ -11,7 +11,7 @@
 
 h2
 {
-  font-size: 30pt;
+  font-size: 40pt;
   font-family: Verdana, sans-serif;
 }
 
@@ -137,6 +137,7 @@ img
   margin-right: 20px;
   z-index: 50;
   height: 20px;
+  margin-top: 10%;
 }
 
 .nav a
