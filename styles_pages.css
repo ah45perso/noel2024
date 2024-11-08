@@ -86,7 +86,7 @@ ul
   flex-direction: column;
 }
 
-@media (max-width: 600px) {
+@media (orientation: portrait) {
   .card
   {
     text-align: center;
